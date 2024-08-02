@@ -21,7 +21,9 @@ public class VisitorController {
 	List<Visitor> visitors = Arrays.asList(
 			new Visitor(111, "Tufail", "8867205331", "Training"),
 			new Visitor(112, "Tarun", "9874531298", "Meeting"),
-			new Visitor(115, "Jay", "9876543211", "Lunch")
+			new Visitor(115, "Jay", "9876543211", "Lunch"),
+			new Visitor(220, "Arun", "9876543211", "Trainee")
+
 	);
 	
 	@GetMapping									//localhost:9090/visi tor
